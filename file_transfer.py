@@ -1,14 +1,8 @@
 import os
 import shutil
 
-target_folder = r'C:\Users\Justin\Desktop\Freelance\Nick Kurz- Gifford Monument\03_PRODUCTION\Assets\Monument Images From Client\Monument_Images' + '\\'
-source_folder = r'C:\Users\Justin\Desktop\Freelance\Nick Kurz- Gifford Monument\03_PRODUCTION\Assets\Monument Images From Client\Custom' + '\\'
-
-# for path, dir, files in os.walk(source_folder):
-#     if files:
-#         for file in files:
-#             if not os.path.isfile(target_folder + file):
-#                 os.rename(path + '\\' + file, target_folder + file)
+source_folder = r'from path' + '\\'
+target_folder = r'to path' + '\\'
 
 
 def move_files(sourceFolder, targetFolder):
